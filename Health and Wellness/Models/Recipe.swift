@@ -18,12 +18,13 @@ struct Recipe: Hashable, Identifiable, Codable {
 
 struct Ingredient: Hashable, Identifiable, Codable {
     let id = UUID()
-    let ingredient: String
+    let name: String
+    let category: String
     let measurement: Float64?
     let units: String?
     
     var displayText: String {
-        return "\(measurement != nil ? measurement!.formatted() : "") \(units != nil ? units! : "") \(ingredient)"
+        return "\(measurement != nil ? measurement!.formatted() : "") \(units != nil ? units! : "") \(name)"
     }
 }
 
