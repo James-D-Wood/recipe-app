@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		1A1EE7A42B9541BB00E62095 /* Health_and_WellnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7A32B9541BB00E62095 /* Health_and_WellnessApp.swift */; };
-		1A1EE7A62B9541BB00E62095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7A52B9541BB00E62095 /* ContentView.swift */; };
 		1A1EE7A82B9541BD00E62095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EE7A72B9541BD00E62095 /* Assets.xcassets */; };
 		1A1EE7AB2B9541BD00E62095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EE7AA2B9541BD00E62095 /* Preview Assets.xcassets */; };
+		1A1EE7B42B95421400E62095 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7B32B95421400E62095 /* RecipeListView.swift */; };
+		1A1EE7B62B95423800E62095 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7B52B95423800E62095 /* Recipe.swift */; };
+		1A1EE7B82B9544EE00E62095 /* SampleRecipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EE7B72B9544EE00E62095 /* SampleRecipes.json */; };
+		1A1EE7BA2B954D0200E62095 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7B92B954D0200E62095 /* RecipeDetailView.swift */; };
+		1A1EE7BC2B95928C00E62095 /* RecipeCategoryTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7BB2B95928C00E62095 /* RecipeCategoryTileView.swift */; };
+		1A1EE7C22B95B71400E62095 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EE7C12B95B71400E62095 /* Launch Screen.storyboard */; };
+		1A1EE7CB2B95B8A600E62095 /* RecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EE7CA2B95B8A600E62095 /* RecipeCategory.swift */; };
+		1AB7CC712C721C4E00641344 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7CC702C721C4E00641344 /* RecipeListViewModel.swift */; };
+		1AB7CC732C72232C00641344 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7CC722C72232C00641344 /* Async.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A1EE7A02B9541BB00E62095 /* Health and Wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health and Wellness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1EE7A32B9541BB00E62095 /* Health_and_WellnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_and_WellnessApp.swift; sourceTree = "<group>"; };
-		1A1EE7A52B9541BB00E62095 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A1EE7A72B9541BD00E62095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A1EE7AA2B9541BD00E62095 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A1EE7B32B95421400E62095 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		1A1EE7B52B95423800E62095 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		1A1EE7B72B9544EE00E62095 /* SampleRecipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleRecipes.json; sourceTree = "<group>"; };
+		1A1EE7B92B954D0200E62095 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		1A1EE7BB2B95928C00E62095 /* RecipeCategoryTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryTileView.swift; sourceTree = "<group>"; };
+		1A1EE7C02B95B0D800E62095 /* Health-and-Wellness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Health-and-Wellness-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1A1EE7C12B95B71400E62095 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1A1EE7CA2B95B8A600E62095 /* RecipeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategory.swift; sourceTree = "<group>"; };
+		1AB7CC702C721C4E00641344 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		1AB7CC722C72232C00641344 /* Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		1AB7CC742C88272C00641344 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,14 @@
 		1A1EE7A22B9541BB00E62095 /* Health and Wellness */ = {
 			isa = PBXGroup;
 			children = (
+				1A1EE7C82B95B81900E62095 /* Models */,
+				1AB7CC6F2C721C1000641344 /* ViewModels */,
+				1A1EE7C42B95B7D900E62095 /* Screens */,
+				1A1EE7C72B95B81200E62095 /* Util */,
+				1A1EE7C32B95B7AC00E62095 /* Storyboards */,
+				1A1EE7C02B95B0D800E62095 /* Health-and-Wellness-Info.plist */,
 				1A1EE7A32B9541BB00E62095 /* Health_and_WellnessApp.swift */,
-				1A1EE7A52B9541BB00E62095 /* ContentView.swift */,
+				1AB7CC742C88272C00641344 /* TODO.md */,
 				1A1EE7A72B9541BD00E62095 /* Assets.xcassets */,
 				1A1EE7A92B9541BD00E62095 /* Preview Content */,
 			);
@@ -65,6 +89,74 @@
 				1A1EE7AA2B9541BD00E62095 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A1EE7C32B95B7AC00E62095 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7C12B95B71400E62095 /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1A1EE7C42B95B7D900E62095 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7C92B95B88A00E62095 /* HomeScreen */,
+				1A1EE7C62B95B7FE00E62095 /* RecipeDetailScreen */,
+				1A1EE7C52B95B7EE00E62095 /* RecipeListScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1A1EE7C52B95B7EE00E62095 /* RecipeListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7B32B95421400E62095 /* RecipeListView.swift */,
+			);
+			path = RecipeListScreen;
+			sourceTree = "<group>";
+		};
+		1A1EE7C62B95B7FE00E62095 /* RecipeDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7B92B954D0200E62095 /* RecipeDetailView.swift */,
+			);
+			path = RecipeDetailScreen;
+			sourceTree = "<group>";
+		};
+		1A1EE7C72B95B81200E62095 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1AB7CC722C72232C00641344 /* Async.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1A1EE7C82B95B81900E62095 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7B52B95423800E62095 /* Recipe.swift */,
+				1A1EE7CA2B95B8A600E62095 /* RecipeCategory.swift */,
+				1A1EE7B72B9544EE00E62095 /* SampleRecipes.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A1EE7C92B95B88A00E62095 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EE7BB2B95928C00E62095 /* RecipeCategoryTileView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		1AB7CC6F2C721C1000641344 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AB7CC702C721C4E00641344 /* RecipeListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1EE7B82B9544EE00E62095 /* SampleRecipes.json in Resources */,
 				1A1EE7AB2B9541BD00E62095 /* Preview Assets.xcassets in Resources */,
+				1A1EE7C22B95B71400E62095 /* Launch Screen.storyboard in Resources */,
 				1A1EE7A82B9541BD00E62095 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1EE7A62B9541BB00E62095 /* ContentView.swift in Sources */,
+				1AB7CC712C721C4E00641344 /* RecipeListViewModel.swift in Sources */,
+				1A1EE7B42B95421400E62095 /* RecipeListView.swift in Sources */,
+				1A1EE7BA2B954D0200E62095 /* RecipeDetailView.swift in Sources */,
 				1A1EE7A42B9541BB00E62095 /* Health_and_WellnessApp.swift in Sources */,
+				1A1EE7BC2B95928C00E62095 /* RecipeCategoryTileView.swift in Sources */,
+				1AB7CC732C72232C00641344 /* Async.swift in Sources */,
+				1A1EE7B62B95423800E62095 /* Recipe.swift in Sources */,
+				1A1EE7CB2B95B8A600E62095 /* RecipeCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,17 +364,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Health and Wellness/Preview Content\"";
 				DEVELOPMENT_TEAM = M9BCN5SAX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-and-Wellness-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Health & Wellness";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,17 +396,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Health and Wellness/Preview Content\"";
 				DEVELOPMENT_TEAM = M9BCN5SAX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-and-Wellness-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Health & Wellness";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
